@@ -21,7 +21,7 @@ console.log(e.target)
         <h3>
             Componente: MiPrimerEstado
         </h3>
-    <strong className='label'>{nombre}</strong>
+        <strong className='label'>{nombre}</strong>
         &nbsp;
         <button onClick={ e => cambiarNombre (e,"Jesucristo")}>cambiar nombre por Jesucristo</button>
         &nbsp;
